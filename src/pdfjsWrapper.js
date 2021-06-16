@@ -292,7 +292,7 @@ export default function( PDFJS ) {
             pdfDoc  = null;
             pdfPage = null;
 
-            emit( 'num-pages', undefined );
+            emit( 'numPages', undefined );
 
             if( !src ) {
                 canvasElt.removeAttribute( 'width' );
@@ -338,6 +338,7 @@ export default function( PDFJS ) {
                 return loadingTask.promise;
             } ).then( function( pdf ) {
                 pdfDoc = pdf;
+
                 emit( 'numPages', pdf.numPages );
 
                 loadInitialPage();

@@ -1,0 +1,25 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "pdfjs-dist-sig": "^2.6.4",
+    "raw-loader": "^4.0.2",
+    "vue3-resize-sensor": "^2.0.2",
+    "worker-loader": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "vue.js pdf viewer",
+  "keywords": [
+    "vue.js",
+    "vue 3",
+    "pdf",
+    "viewer"
+  ],
+  "license": "MIT",
+  "main": "src/vuePdfNoSss.vue",
+  "name": "vue3pdf",
+  "peerDependencies": {},
+  "scripts": {},
+  "version": "1.0.0"
+}

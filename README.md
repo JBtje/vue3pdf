@@ -1,10 +1,9 @@
 # vue3pdf
-vue.js pdf viewer
+[![Latest Version on NPM](https://img.shields.io/npm/v/@jbtje/vue3pdf.svg?style=flat-square)](https://npmjs.com/package/@jbtje/vue3pdf)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/dt/@jbtje/vue3pdf.svg?style=flat-square)](https://www.npmjs.com/package/@jbtje/vue3pdf)
 
-## Install
-```bash
-npm install --save @jbtje/vue3pdf
-```
+The package contains a [Vue 3](https://vuejs.org/) component to easily display PDF files.
 
 ## Example - basic
 ```vue
@@ -20,6 +19,11 @@ export default {
     pdf
   }
 }
+```
+
+## Install
+```bash
+npm install --save @jbtje/vue3pdf
 ```
 
 ## Demo

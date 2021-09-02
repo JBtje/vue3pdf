@@ -1,18 +1,17 @@
 <style src="./annotationLayer.css"></style>
 <script>
 
-import componentFactory from './componentFactory.js';
+import componentFactory from './componentFactory';
+import pdfjsWorker      from 'pdfjs-dist/build/pdf.worker.entry';
 
 var component;
 
 if( process.env.VUE_ENV !== 'server' ) {
-    var pdfjsWrapper = require( './pdfjsWrapper.js' ).default;
-    var PDFJS        = require( 'pdfjs-dist-sig/es5/build/pdf.js' );
+    var pdfjsWrapper = require( './pdfjsWrapper' ).default;
+    var PDFJS        = require( 'pdfjs-dist' );
 
     if( typeof window !== 'undefined' && 'Worker' in window && navigator.appVersion.indexOf( 'MSIE 10' ) === -1 ) {
-
-        var PdfjsWorker                      = require( 'worker-loader!pdfjs-dist-sig/es5/build/pdf.worker.js' );
-        PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
+        PDFJS.GlobalWorkerOptions.workerSrc = pdfjsWorker;
     }
 
     component = componentFactory( pdfjsWrapper( PDFJS ) );

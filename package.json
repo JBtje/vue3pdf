@@ -19,7 +19,7 @@
   "name": "@jbtje/vue3pdf",
   "peerDependencies": {},
   "scripts": {},
-  "version": "2.0.0",
+  "version": "2.1.0",
   "devDependencies": {},
   "repository": {
     "type": "git",

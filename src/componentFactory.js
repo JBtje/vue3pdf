@@ -22,12 +22,8 @@ export default function( pdfjsWrapper ) {
                     ref:   'annotationLayer',
                 } ),
                 h( resizeSensor, {
-                    props: {
-                        initial: true,
-                    },
-                    on:    {
-                        resize: this.resize,
-                    },
+                    initial: true,
+                    onResize: this.resize,
                 } ),
             ] );
         },

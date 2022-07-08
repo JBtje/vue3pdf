@@ -1,11 +1,11 @@
-# vue3pdf
+# Vue3Pdf
 [![Latest Version on NPM](https://img.shields.io/npm/v/@jbtje/vue3pdf.svg?style=flat-square)](https://npmjs.com/package/@jbtje/vue3pdf)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![npm](https://img.shields.io/npm/dt/@jbtje/vue3pdf.svg?style=flat-square)](https://www.npmjs.com/package/@jbtje/vue3pdf)
 
 The package contains a [Vue 3](https://vuejs.org/) component to easily display PDF files.
 
-### Want to use vue3pdf with Vite? see [Vite-Vue3Pdf](https://github.com/JBtje/vite-vue3pdf)
+### Want to use Vue3Pdf with Vite? see [Vite-Vue3Pdf](https://github.com/JBtje/vite-vue3pdf)
 
 ## Example - basic
 ```vue

@@ -5,6 +5,8 @@
 
 The package contains a [Vue 3](https://vuejs.org/) component to easily display PDF files.
 
+### Want to use vue3pdf with Vite? see [Vite-Vue3Pdf](https://github.com/JBtje/vite-vue3pdf)
+
 ## Example - basic
 ```vue
 <template>
